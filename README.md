@@ -5,13 +5,13 @@ Random forest is a popular machine learning technique that is often used on spat
 
 <b>Summary Results: </b><br>
 ![](./Paper_work/Table_1.png) <br>
-Table 1 shows summary statistics of our data for the four regions in the USA.
+Table 1 shows marginal performances under dominant spatial error.
 
 ![](./Paper_work/Table_3.png) <br>
-Table 3 describes the estimated coefficients and their 95% credible intervals of the covariates on COVID-19 weekly death counts.
+Figure 1 describes conditional performances under dominant spatial error.
 
 ![](./Paper_work/Figure_2.png) <br>
-Figure 2 shows the time-averaged COVID-19 weekly death probability at risk.
+Figure 2 shows the visualization of the ground truth/model-predicted earthquakes of magnitude greater than 5.5 in year 2016.
 
 
 <b>Code: </b><br>
