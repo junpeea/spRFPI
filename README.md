@@ -4,13 +4,13 @@
 Random forest is a popular machine learning technique that is often used on spatial data for prediction. However, in practice, the spatial dependence of a response variable has typically been ignored in constructing prediction intervals with random forest algorithms, which may result in either low accuracy or low efficiency in such applications. We propose a generalized version of out-of-bag guided random forest prediction intervals, which is well-adapted for spatially dependent data. We use dependency-adjusted regression tree (DART) node-splitting and a novel non-parametric kernel out-of-bag estimator to estimate the underlying conditional prediction error distribution. Theoretical results on the asymptotic consistency of our approach are obtained. Empirical simulation studies and the analysis of global earthquake data indicate that our proposed prediction interval provides good coverage, and is generally more efficient than  existing approaches when observations are spatially dependent. 
 
 <b>Summary Results: </b><br>
-![](./Paper_work/Table_1.png) <br>
+![](./Paper_work/Table1.png) <br>
 Table 1 shows marginal performances under dominant spatial error.
 
-![](./Paper_work/Table_3.png) <br>
+![](./Paper_work/Figure1.png) <br>
 Figure 1 describes conditional performances under dominant spatial error.
 
-![](./Paper_work/Figure_2.png) <br>
+![](./Paper_work/Figure2.png) <br>
 Figure 2 shows the visualization of the ground truth/model-predicted earthquakes of magnitude greater than 5.5 in year 2016.
 
 
