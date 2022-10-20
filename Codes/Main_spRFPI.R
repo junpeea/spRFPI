@@ -14,9 +14,7 @@ library(RandomForestsGLS)
 library(scp)
 library(scales)
 library(xtable)
-# source('RFGLS_support_YBJ.R')
-source('RFGLS_support2_YBJ.R')
-source('RFGLS_support3_YBJ.R')
+source('RFGLS_support_YBJ.R')
 ################################
 
 nsim = 100;
