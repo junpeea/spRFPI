@@ -15,25 +15,9 @@ Figure 2 shows the visualization of the ground truth/model-predicted earthquakes
 
 
 <b>Code: </b><br>
-[`Result_general.R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Paper_work/Code/Result_general.R) includes the code to provide main tables and figues in our Result session.
+[`Main_spRFPI.R`](https://github.com/junpeea/spRFPI/blob/main/Codes/Main_spRFPI.R) includes the code to provide main tables and figues in our Result session.
 
-[`Result_210401_Div2(NJ,NY,PA).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result_210401_Div2(NJ,NY,PA).R) includes the code to provide model outputs in the Mid-Atlantic (New Jersey, New York, and Pennsylvania) study.
-
-[`Result_210401_Div4(IA,KS,MO,NE,ND,SD).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result_210401_Div4(IA,KS,MO,NE,ND,SD).R) includes the code to provide main results in the Midwest (Iowa, Kansas, Missouri, Nebraska, North Dakota, and South Dakota) study.
-
-[`Result_210401_Div5(GA,FL,NC,SC).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result_210401_Div5(GA,FL,NC,SC).R) includes the code to provide main results in the South Atlantic (Florida, Georgia, North Carolina, and South Carolina) study.
-
-[`Result_210401_Div9(CA,OR,WA).R`](https://github.com/junpeea/COVID-PM-STZINB/blob/main/Papaer_work/Code/Result_210401_Div9(CA,OR,WA).R) includes the code to provide main results in the Pacific (California, Oregon, and Washington) study.
-
-<b>Data: </b><br>
-
-Adjacency.csv: Adjacency information across states and counties in US.
-
-County_details.csv
+[`RFGLS_support_YBJ.R`](https://github.com/junpeea/spRFPI/blob/main/Codes/RFGLS_support_YBJ.R) includes the main library function codes.
 
 <b>Reference pages: </b><br>
-Reference Dashboard: [Johns Hopkins University COVID-19 dashboard](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)<br>
-COVID-19 data source 1: [The COVID Tracking Project](https://covidtracking.com/)<br>
-COVID-19 data source 2: [2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE ](https://github.com/CSSEGISandData/COVID-19)<br>
-PM2.5 data source: [Public available code and data to Reproduce Analyses in <Exposure to air pollution and COVID-19 mortality in the United States>](https://github.com/wxwx1993/PM_COVID) <br>
-US Hospitalization: [ArcGIS Hub](https://hub.arcgis.com/search) <br>
+Data source: [earthquake-database](https://www.kaggle.com/datasets/usgs/earthquake-database)<br>
